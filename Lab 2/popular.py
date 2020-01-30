@@ -19,8 +19,6 @@ def dictprocessor(string):
     outputstring = outputstring[:-1]
     print(outputstring)
 
-
-
 def main():
     inputstring = sys.argv[1].lower()
 
