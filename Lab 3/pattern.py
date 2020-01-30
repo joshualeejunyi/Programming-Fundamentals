@@ -6,6 +6,9 @@ def main():
     pattern = sys.argv[2]
     patterncount = len(re.findall(pattern, candidate))
 
+    if patterncount == 0:
+        patterncount = -1
+
     print("Pattern appears %d time!" %(patterncount))
 
 if __name__ == '__main__':
