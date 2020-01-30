@@ -1,3 +1,5 @@
+from functools import reduce
+
 # Function 1: Add
 def add(x,y):
     result = x + y
@@ -33,9 +35,7 @@ def absolute(x):
 
 # Function 7: sum of list
 def sumTotal(x):
-    total = 0
-    for number in x:
-        total = total + number
+    total = reduce(add, x)
 
     return total
 
