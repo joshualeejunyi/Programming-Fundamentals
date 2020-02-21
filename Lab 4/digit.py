@@ -33,7 +33,7 @@ def main():
 
 if __name__ == "__main__":
     if (len(sys.argv)) != 2:
-        print("Resurive/Iterative Digit - Input 1 number as arguments to calculate how many digits a positive number has.")
+        print("Recurive/Iterative Digit - Input 1 number as arguments to calculate how many digits a positive number has.")
         print("Usage: " + sys.argv[0] + " [Number]")
 
         sys.exit()

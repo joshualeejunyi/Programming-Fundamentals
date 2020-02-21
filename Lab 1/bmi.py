@@ -61,8 +61,8 @@ def main():
     
 if __name__ == '__main__':
     if (len(sys.argv)) != 4:
-        # print("BMI Calculator - Input choice of Units, Height and Weight to calculate your BMI.")
-        # print("Usage: " + sys.argv[0] + " [Metric/Imperial] [Height(Metres/Inches)] [Weight(Kg/lbs)]")
+        print("BMI Calculator - Input choice of Units, Height and Weight to calculate your BMI.")
+        print("Usage: " + sys.argv[0] + " [Metric/Imperial] [Height(Metres/Inches)] [Weight(Kg/lbs)]")
         print("Your input is invalid!")
     
         sys.exit()
