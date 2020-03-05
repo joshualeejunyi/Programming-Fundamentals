@@ -6,7 +6,7 @@ int main() {
     float y = 1.5;
     char c = 'p';
 
-    printf("======== (a) ========");
+    printf("======== (a) ========\n");
     printf("a/b = %d\n", a/b);
     printf("a*b = %d\n", a*b);
     printf("(b*3)%%4 = %d\n", ((b*3)%4));
@@ -15,7 +15,7 @@ int main() {
     printf("y/x = %f\n", y/x);
     printf("c-3 = %d\n", c-3);
 
-    printf("======== (b) ========");
+    printf("======== (b) ========\n");
     printf("%4d\n", a);
     printf("%04d\n", b);
     printf("a/b = %d\n", a/b);

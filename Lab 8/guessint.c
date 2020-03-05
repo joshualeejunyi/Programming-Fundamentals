@@ -6,7 +6,7 @@
 int main() {
     int answer = 0, guesscount = 0, guess = 0;
 
-    while (answer < START_NUM || answer > END_NUM) {
+    while (1) {
         // request player 1's input
         printf("Player 1, enter a number between %d and %d:\n", START_NUM, END_NUM);
         scanf("%d", &answer);
