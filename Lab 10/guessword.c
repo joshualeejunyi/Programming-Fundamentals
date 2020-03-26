@@ -44,7 +44,7 @@ int main() {
     printf("The word was %s", keyword);
     printf("Player 1 wins.\n");
 
-    
+    return 1;
 }
 
 int keywordcheck(char * keyword, int len) {
